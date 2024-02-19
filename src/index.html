@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- meu css -->
+    <link rel="stylesheet" href="./styles/main.scss">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Meu Calendario</title>
+</head>
+
+<body>
+    <header class="hero">
+        <div class="container">
+            <!-- <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC"> -->
+            <p class="hero__text">
+                Vamos lá, contagem regressiva para meu aniversario  <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item"><b>Localização</b> Joaão Pessoa - Paraíba - PB</li>
+                    <li class="infos-bar__infos__item"><b>12/12/2024</b> às 19hrs</li>
+                </ul>
+                <a href="" class="button button--primary">Marque presença</a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--frontend">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Lista de convidades</h2>
+                <p class="event__details__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio rem omnis eum at. Laborum
+                    quibusdam, facilis quidem corrupti iusto cumque porro voluptas aperiam nihil quas pariatur
+                    veritatis. Provident, nesciunt at.
+                </p>
+            </div>
+            <img class="event__image stilo-img" src="./images/convidados.jpg" alt="convidados" >
+        </div>
+    </section>
+    <section class="event event--ux-ui event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Buffet</h2>
+                <p class="event__details__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio rem omnis eum at. Laborum
+                    quibusdam, facilis quidem corrupti iusto cumque porro voluptas aperiam nihil quas pariatur
+                    veritatis. Provident, nesciunt at.
+                </p>
+            </div>
+            <img class="event__image stilo-img" src="./images/comida.jpeg" alt="comida">
+        </div>
+    </section>
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Salão de Festa</h2>
+                <p class="event__details__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio rem omnis eum at. Laborum
+                    quibusdam, facilis quidem corrupti iusto cumque porro voluptas aperiam nihil quas pariatur
+                    veritatis. Provident, nesciunt.
+                </p>
+            </div>
+            <img class="event__image stilo-img" src="./images/local.jpg" alt="Local">
+        </div>
+    </section>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- meu Js -->
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
